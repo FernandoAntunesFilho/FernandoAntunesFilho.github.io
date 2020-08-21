@@ -4,17 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Web</title>
+
+    <style>
+
+            .conf-nome{
+                font-family: sans-serif;
+            }
+            .conf-descricao{
+                font-family:monospace;
+            }
+            body{
+                background-color: #CBD4C2;
+            }
+            .hab1{
+                font-size: 17px;
+            }
+            .hab2{
+                font-size: 20px;
+            }
+            .hab3{
+                font-size: 25px;
+            }
+            .local-nascimento{
+                font-style: italic;
+            }
+    </style>
+
 </head>
 <body>
-    <h1 id="nome">FERNANDO ANTUNES FILHO</h1>
+    <h1 id="nome" class="conf-nome">FERNANDO ANTUNES FILHO</h1>
     <img src="/imagens/IMG_20200224_092933772.jpg" alt="Foto de Fernando Antunes" width="400">
-    <h4 id="descricao">Nascido em Boituva/SP em 1983 atualmente reside em Piracicaba/SP</h4>
+    <h4 id="descricao" class="conf-descricao">Nascido em <strong class="local-nascimento">Boituva/SP</strong> em 1983 atualmente reside em Piracicaba/SP</h4>
     <h4><em>Desenvolvedor estudante na Trybe</em></h4>
     <p id="habilidade">Com muita facilidade de aprender coisas novas, sempre busco novos conhecimentos. <br>
         Atualmente focado 100% no curso de <strong>Desenvolvedor Web</strong>.<br>
-        Me orgulho muito da resiliencia adquirida com o tempo para trablhar facilmente em grupo
-        e diante de mudanças constantes.
+        Me orgulho:
     </p>
+    
+    <ul>
+        <li class="hab1">Muito da resiliencia adquirida com o tempo</li>
+        <li class="hab2">Facilidade de trabalhar em grupo</li>
+        <li class="hab3">Sempre aberto a mudanças.</li>
+    </ul>
+    
     <a id="foto" href="imagens/IMG_20200224_092933772.jpg">Link da foto</a> <br>
     <a id="blog" href="https://www.deviante.com.br/podcasts/scicast/" target="_black">Podcast SciCast | Portal Deviante</a>
     <h3>Índice</h3>
