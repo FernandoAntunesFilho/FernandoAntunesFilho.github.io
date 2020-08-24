@@ -12,6 +12,8 @@
             }
             .conf-descricao{
                 font-family:monospace;
+                margin: 35px;
+                padding: 35px;
             }
             body{
                 background-color: #CBD4C2;
@@ -25,26 +27,52 @@
             .hab3{
                 font-size: 25px;
             }
+            .hab-impar{
+                font-style:italic;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                text-decoration-line:underline;
+            }
             .local-nascimento{
                 font-style: italic;
+            }
+            .bloco-foto{
+                float: left;
+                padding: 10px;
+                background-color: #247BA0;
+                margin: 35px;
+            }
+            #nome{
+                text-align: center;
+                margin: 35px;
+                padding: 35px;
+                font-size: 50px;
             }
     </style>
 
 </head>
 <body>
-    <h1 id="nome" class="conf-nome">FERNANDO ANTUNES FILHO</h1>
-    <img src="/imagens/IMG_20200224_092933772.jpg" alt="Foto de Fernando Antunes" width="400">
-    <h4 id="descricao" class="conf-descricao">Nascido em <strong class="local-nascimento">Boituva/SP</strong> em 1983 atualmente reside em Piracicaba/SP</h4>
-    <h4><em>Desenvolvedor estudante na Trybe</em></h4>
+    <div>
+        <h1 id="nome" class="conf-nome">FERNANDO ANTUNES FILHO</h1>
+    </div>
+
+    <div class="bloco-foto">
+        <img src="/imagens/IMG_20200224_092933772.jpg" alt="Foto de Fernando Antunes" width="400">
+    </div>
+
+    <div>
+        <h4 id="descricao" class="conf-descricao">Nascido em <strong class="local-nascimento">Boituva/SP</strong> em 1983 atualmente reside em Piracicaba/SP</h4>
+        <h4><em>Desenvolvedor estudante na Trybe</em></h4>
+    </div>
+
     <p id="habilidade">Com muita facilidade de aprender coisas novas, sempre busco novos conhecimentos. <br>
         Atualmente focado 100% no curso de <strong>Desenvolvedor Web</strong>.<br>
         Me orgulho:
     </p>
     
     <ul>
-        <li class="hab1">Muito da resiliencia adquirida com o tempo</li>
+        <li class="hab1 hab-impar">Muito da resiliencia adquirida com o tempo</li>
         <li class="hab2">Facilidade de trabalhar em grupo</li>
-        <li class="hab3">Sempre aberto a mudanças.</li>
+        <li class="hab3 hab-impar">Sempre aberto a mudanças.</li>
     </ul>
     
     <a id="foto" href="imagens/IMG_20200224_092933772.jpg">Link da foto</a> <br>
